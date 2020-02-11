@@ -32,6 +32,10 @@ module Paperclip
       end
     end
 
+    def place
+      attachment_options[:place]
+    end
+
     def most_appropriate_url
       if @attachment.original_filename.nil?
         default_url
