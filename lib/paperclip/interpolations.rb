@@ -84,6 +84,10 @@ module Paperclip
     def rails_env attachment, style_name
       Rails.env
     end
+    
+    def place attachment, style_name
+      attachment.options[:place]
+    end
 
     # Returns the underscored, pluralized version of the class name.
     # e.g. "users" for the User class.
