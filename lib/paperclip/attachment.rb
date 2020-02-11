@@ -13,6 +13,7 @@ module Paperclip
         :convert_options       => {},
         :default_style         => :original,
         :default_url           => "/:attachment/:style/missing.png",
+        :place                 => "",
         :escape_url            => true,
         :restricted_characters => /[&$+,\/:;=?@<>\[\]\{\}\|\\\^~%# ]/,
         :filename_cleaner      => nil,
